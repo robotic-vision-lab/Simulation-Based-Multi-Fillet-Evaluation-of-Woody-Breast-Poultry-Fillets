@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3929172048942716438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6007942646196644291}
+  - component: {fileID: 6249199354478251539}
+  - component: {fileID: 5904542721386461982}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6007942646196644291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929172048942716438}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.27398, y: 0.138, z: 0.11272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6249199354478251539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929172048942716438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8f13a73ef32344da4d1e199891822f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FilletSpawner
+  beltMeshObject: {fileID: 0}
+  beltSpeedFPM: 50
+  beltStaticFriction: 50
+  beltDynamicFriction: 0.6
+  resourcesFolder: Fillets
+  spawnPoint: {fileID: 0}
+  filletMaterial: {fileID: 2100000, guid: 002fa343d8bb8f94d89c701c1eee0542, type: 2}
+  alignLeftEdge: 1
+  spawnRow: 0
+  endSpawnPoint: {fileID: 0}
+  segmentCount: 40
+  totalMass: 100
+  springForce: 0
+  springDamper: 0.01
+  jointDrag: 0
+  jointAngularDrag: 0
+  horizontalAirDrag: 0
+--- !u!114 &5904542721386461982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3929172048942716438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b6942dfb9c2e745af6b02722c8fd59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimulationServer
+  spawner: {fileID: 6249199354478251539}

@@ -1,0 +1,50 @@
+# Unity
+Logs/
+UserSettings/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.blob
+
+# vs code
+.vscode/
+*.sln
+
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.fls
+
+# Latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex.gz
+
+# LaTeX Beamer
+*.snm
+*.vrb
+*.nav
+*.out
+
+# BibTeX
+*.bbl
+*.blg
+
+# Python
+.venv/
+.python-version
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C
+*.csproj
+
+# OS Generated
+.DS_Store
+Thumbs.db
