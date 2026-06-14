@@ -76,12 +76,12 @@ open the project.
 
 ### Dataset
 
-The synthetic dataset containing 1,000 3D fillet meshes is hosted externally to
-keep this repository lightweight. Download the
-[Synthetic-Woody-Breast-Poultry-Fillets](URL_TO_EXTERNAL_DATASET) dataset and
-extract the `.obj` files into the `Assets/Resources/Fillets/` directory within
-the Unity project.  *(Note: A very small portion of the dataset is included by
-default in the repository for immediate testing).*
+Our [Synthetic-Woody-Breast-Poultry-Fillets](URL_TO_EXTERNAL_DATASET) contains
+1,000 3D fillet meshes is hosted externally to keep this repository
+lightweight. Download the dataset and extract the `.obj` files into the
+`Assets/Resources/Fillets/` directory within the Unity project.  *(Note: A very
+small portion of the dataset is included by default in the repository for
+immediate testing).*
 
 ### Usage 
 
