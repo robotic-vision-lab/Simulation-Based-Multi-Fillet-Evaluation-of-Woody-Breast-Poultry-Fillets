@@ -60,8 +60,8 @@ dataset.
 
 First, begin by cloning the project:
 
-    $ git clone https://github.com/<robotic-vision-lab>/<WoodyBreastSim>.git
-    $ cd <WoodyBreastSim>
+    $ git clone https://github.com/robotic-vision-lab/Simulation-Based-Multi-Fillet-Evaluation-of-Woody-Breast-Poultry-Fillets.git
+    $ cd Simulation-Based-Multi-Fillet-Evaluation-of-Woody-Breast-Poultry-Fillets.git
 
 Next, create a Python virtual environment and install the evaluation
 dependencies:
