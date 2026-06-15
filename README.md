@@ -85,10 +85,6 @@ immediate testing.*
 
 ### Usage 
 
-
-#### Unity Fillet Simulation
-
-
 #### Bending Evaluation
 
 To start the simulation framework, press **Play** in the Unity Editor while in
@@ -100,6 +96,16 @@ files:
 
 Once the Unity script is running and indicates that it is waiting for sockets
 to be received (in the console), run the Python script.
+
+#### Simulation Parameters
+
+The Spawner GameObject in the hiearchy houses the simulation pararameters that control the conveyor belt speed, friction, as well as the fillet dynamics and movement. Some of these parameters are controlled via the Python scripts.
+
+<p align="center">
+  <img src="images/simulation_params.png" alt="simulation parameters" width="400"/>
+</p>
+
+
    
 ### License
 
