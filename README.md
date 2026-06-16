@@ -16,7 +16,7 @@ bottlenecks on commercial processing lines.
 
 This repository provides the source code and Unity simulation framework for our
 2026 IEEE Conference on Automation Science and Engineering paper titled
-"[Simulation-Based Multi-Fillet Evaluation of Woody Breast Poultry Fillets]()."
+"[Simulation-Based Multi-Fillet Evaluation of Woody Breast Poultry Fillets](https://arxiv.org/pdf/2606.16951)."
 We address throughput limitations via a novel multi-fillet detection
 architecture utilizing a top-down camera configuration.  To validate our
 approach, we developed a high-fidelity digital twin of an industrial conveyor
@@ -99,13 +99,13 @@ to be received (in the console), run the Python script.
 
 #### Simulation Parameters
 
-The Spawner GameObject in the hiearchy houses the simulation pararameters that control the conveyor belt speed, friction, as well as the fillet dynamics and movement. Some of these parameters are controlled via the Python scripts.
+The Spawner GameObject in the hierarchy houses the simulation parameters that
+control the conveyor belt speed, friction, as well as the fillet dynamics and
+movement. Some of these parameters are controlled via the Python scripts.
 
 <p align="center">
   <img src="images/simulation_params.png" alt="simulation parameters" width="400"/>
 </p>
-
-
    
 ### License
 
