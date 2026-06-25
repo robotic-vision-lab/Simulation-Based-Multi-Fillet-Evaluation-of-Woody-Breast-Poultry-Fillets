@@ -40,13 +40,13 @@ dataset.
   year={2026}
 }
 
-@data{mavmatrix/dataset.2026.xx.xxx,
-  title={{Synthetic-Woody-Breast-Poultry-Fillets}},
+@data{mavmatrix/dataset.2026.02.049,
+  title={{Synthetic-Chicken-Fillets}},
   author={Sen Mukherjee, Chirantan and Yoon, Seung-Chul and Beksi, William J},
   publisher={MavMatrix},
   version={V1},
-  url={},
-  doi={},
+  url={https://doi.org/10.32855/dataset.2026.02.049},
+  doi={10.32855/dataset.2026.02.049},
   year={2026}
 ```
 
@@ -76,11 +76,11 @@ open the project.
 
 ### Dataset
 
-Our [Synthetic-Woody-Breast-Poultry-Fillets](URL_TO_EXTERNAL_DATASET) dataset
-contains 1,000 3D fillet meshes and is hosted externally to keep this repository
-lightweight. Download the dataset and extract the `.obj` files into the
-`Assets/Resources/Fillets/` directory within the Unity project. *Note: A very
-small portion of the dataset is included by default in this repository for
+Our [Synthetic-Chicken-Fillets](https://mavmatrix.uta.edu/rvl_agri_datasets2/1/) 
+dataset contains 1,000 3D fillet meshes and is hosted externally to keep this
+repository lightweight. Download the dataset and extract the `.obj` files into
+the `Assets/Resources/Fillets/` directory within the Unity project. *Note: A
+very small portion of the dataset is included by default in this repository for
 immediate testing.*
 
 ### Usage 
